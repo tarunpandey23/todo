@@ -1,0 +1,17 @@
+.todoListDiv{
+    list-style: none;
+    height: 1.8rem;
+    margin-top: 1rem;
+    background-color:#193d63;
+    border-radius: 25px;
+
+}
+.todoListDiv li{
+    display: flex;
+    color: white;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-weight: bolder;
+
+
+}

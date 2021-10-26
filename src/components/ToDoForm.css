@@ -8,10 +8,10 @@ input{
     border-radius: 4px;
     border: none;
     outline-color: thistle;
-    background-color: 
-    #c7f6b6;
+    background-color: #c7f6b6;
     padding-left: 4px;
     color: #262c2c;
+    text-transform: capitalize;
 }
 .subBtn{
     height: 1.8rem;
@@ -24,11 +24,7 @@ input{
     cursor: pointer;
 }
 .todoList{
-    
     width: 30rem;
-    background-color:grey;
     margin: 0 auto;
     text-transform: capitalize;
-    
-
 }
