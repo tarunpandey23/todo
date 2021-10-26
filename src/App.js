@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+
+import ToDoForm from "./components/ToDoForm";
+import "./App.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appBody">
+      <h1>toDo</h1>
+      <div className="insideAppBody">
+        <h3> create your tasks here</h3>
+      <ToDoForm/>
+      </div>
+      
     </div>
   );
 }
